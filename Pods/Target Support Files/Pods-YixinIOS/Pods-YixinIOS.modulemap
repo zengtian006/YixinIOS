@@ -1,0 +1,6 @@
+framework module Pods_YixinIOS {
+  umbrella header "Pods-YixinIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
