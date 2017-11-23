@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4B6E16EC139C8CE870BC23 /* Pods_YixinIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447F6CC731A9946BC1382724 /* Pods_YixinIOS.framework */; };
+		8C2DD9A21F4C340600868A25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9A11F4C340600868A25 /* AppDelegate.swift */; };
+		8C2DD9A41F4C340600868A25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9A31F4C340600868A25 /* ViewController.swift */; };
+		8C2DD9A71F4C340600868A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2DD9A51F4C340600868A25 /* Main.storyboard */; };
+		8C2DD9A91F4C340600868A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2DD9A81F4C340600868A25 /* Assets.xcassets */; };
+		8C2DD9AC1F4C340600868A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2DD9AA1F4C340600868A25 /* LaunchScreen.storyboard */; };
+		8C2DD9B71F4C340600868A25 /* YixinIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9B61F4C340600868A25 /* YixinIOSTests.swift */; };
+		8C2DD9C21F4C3F2B00868A25 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9C11F4C3F2B00868A25 /* MainViewController.swift */; };
+		8C2DD9C41F4C3F8300868A25 /* YixinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9C31F4C3F8300868A25 /* YixinTableViewController.swift */; };
+		8C2DD9C61F4C3F8F00868A25 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9C51F4C3F8F00868A25 /* NewsTableViewController.swift */; };
+		8C2DD9C81F4C3F9B00868A25 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9C71F4C3F9B00868A25 /* ProductsTableViewController.swift */; };
+		8C2DD9CA1F4E699100868A25 /* YixinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9C91F4E699100868A25 /* YixinTableViewCell.swift */; };
+		8C2DD9CC1F4E6A4000868A25 /* ListFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9CB1F4E6A4000868A25 /* ListFeed.swift */; };
+		8C2DD9CF1F4E6B8B00868A25 /* ListFeedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9CE1F4E6B8B00868A25 /* ListFeedLine.swift */; };
+		8C2DD9D11F4E798100868A25 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9D01F4E798100868A25 /* BrowserViewController.swift */; };
+		8C2DD9D31F4E84B400868A25 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9D21F4E84B400868A25 /* NewsTableViewCell.swift */; };
+		8C2DD9D51F4E8D1B00868A25 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9D41F4E8D1B00868A25 /* ProductsTableViewCell.swift */; };
+		8C2DD9DA1F4EACB800868A25 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD9D91F4EACB800868A25 /* MapViewController.swift */; };
+		8C2DD9FE1F4EDDC400868A25 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C2DD9F91F4EDDC400868A25 /* Localizable.strings */; };
+		8C2DDA0A1F4EE30F00868A25 /* KFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DDA051F4EE30F00868A25 /* KFNavigationController.swift */; };
+		8C2DDA0B1F4EE30F00868A25 /* KFRightButtonItemCallBackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DDA061F4EE30F00868A25 /* KFRightButtonItemCallBackTableViewController.swift */; };
+		8C2DDA0C1F4EE30F00868A25 /* KFSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DDA071F4EE30F00868A25 /* KFSettingsViewController.swift */; };
+		8C2DDA0D1F4EE30F00868A25 /* KFTagsChangeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DDA081F4EE30F00868A25 /* KFTagsChangeTableViewController.swift */; };
+		8C2DDA0E1F4EE30F00868A25 /* KFTagsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DDA091F4EE30F00868A25 /* KFTagsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C2DD9B31F4C340600868A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C2DD9961F4C340600868A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C2DD99D1F4C340600868A25;
+			remoteInfo = YixinIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		447F6CC731A9946BC1382724 /* Pods_YixinIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YixinIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2DD99E1F4C340600868A25 /* YixinIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YixinIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2DD9A11F4C340600868A25 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C2DD9A31F4C340600868A25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C2DD9A61F4C340600868A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C2DD9A81F4C340600868A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C2DD9AB1F4C340600868A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C2DD9AD1F4C340600868A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2DD9B21F4C340600868A25 /* YixinIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YixinIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2DD9B61F4C340600868A25 /* YixinIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YixinIOSTests.swift; sourceTree = "<group>"; };
+		8C2DD9B81F4C340600868A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2DD9C11F4C3F2B00868A25 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8C2DD9C31F4C3F8300868A25 /* YixinTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YixinTableViewController.swift; sourceTree = "<group>"; };
+		8C2DD9C51F4C3F8F00868A25 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		8C2DD9C71F4C3F9B00868A25 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		8C2DD9C91F4E699100868A25 /* YixinTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YixinTableViewCell.swift; sourceTree = "<group>"; };
+		8C2DD9CB1F4E6A4000868A25 /* ListFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListFeed.swift; sourceTree = "<group>"; };
+		8C2DD9CE1F4E6B8B00868A25 /* ListFeedLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListFeedLine.swift; sourceTree = "<group>"; };
+		8C2DD9D01F4E798100868A25 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		8C2DD9D21F4E84B400868A25 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		8C2DD9D41F4E8D1B00868A25 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		8C2DD9D81F4EABF500868A25 /* Swift_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift_Bridging_Header.h; sourceTree = "<group>"; };
+		8C2DD9D91F4EACB800868A25 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8C2DD9FA1F4EDDC400868A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8C2DDA031F4EDF4900868A25 /* AppKeFuLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppKeFuLib.h; sourceTree = "<group>"; };
+		8C2DDA051F4EE30F00868A25 /* KFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFNavigationController.swift; sourceTree = "<group>"; };
+		8C2DDA061F4EE30F00868A25 /* KFRightButtonItemCallBackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFRightButtonItemCallBackTableViewController.swift; sourceTree = "<group>"; };
+		8C2DDA071F4EE30F00868A25 /* KFSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFSettingsViewController.swift; sourceTree = "<group>"; };
+		8C2DDA081F4EE30F00868A25 /* KFTagsChangeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFTagsChangeTableViewController.swift; sourceTree = "<group>"; };
+		8C2DDA091F4EE30F00868A25 /* KFTagsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFTagsTableViewController.swift; sourceTree = "<group>"; };
+		8C2DDA171F4EED9000868A25 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		8C2DDA181F4EED9300868A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		8C2DDA191F4EED9900868A25 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		8C2DDA1A1F4EED9B00868A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8C2DDA1B1F4FBBAD00868A25 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D6E5B18928D103EC2339A320 /* Pods-YixinIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YixinIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-YixinIOS/Pods-YixinIOS.release.xcconfig"; sourceTree = "<group>"; };
+		EB34B44A3881E2960F1FF558 /* Pods-YixinIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YixinIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YixinIOS/Pods-YixinIOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C2DD99B1F4C340600868A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4B6E16EC139C8CE870BC23 /* Pods_YixinIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2DD9AF1F4C340600868A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C39E953DEC4F7B0FAF49D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				447F6CC731A9946BC1382724 /* Pods_YixinIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64B9974A7A10B1B8FB87EA54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB34B44A3881E2960F1FF558 /* Pods-YixinIOS.debug.xcconfig */,
+				D6E5B18928D103EC2339A320 /* Pods-YixinIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C2DD9951F4C340600868A25 = {
+			isa = PBXGroup;
+			children = (
+				8C2DD9A01F4C340600868A25 /* YixinIOS */,
+				8C2DD9B51F4C340600868A25 /* YixinIOSTests */,
+				8C2DD99F1F4C340600868A25 /* Products */,
+				64B9974A7A10B1B8FB87EA54 /* Pods */,
+				06C39E953DEC4F7B0FAF49D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2DD99F1F4C340600868A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C2DD99E1F4C340600868A25 /* YixinIOS.app */,
+				8C2DD9B21F4C340600868A25 /* YixinIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C2DD9A01F4C340600868A25 /* YixinIOS */ = {
+			isa = PBXGroup;
+			children = (
+				8C2DDA041F4EE30F00868A25 /* AppKefuControllers */,
+				8C2DDA031F4EDF4900868A25 /* AppKeFuLib.h */,
+				8C2DD9F91F4EDDC400868A25 /* Localizable.strings */,
+				8C2DD9A11F4C340600868A25 /* AppDelegate.swift */,
+				8C2DD9A31F4C340600868A25 /* ViewController.swift */,
+				8C2DD9A51F4C340600868A25 /* Main.storyboard */,
+				8C2DD9A81F4C340600868A25 /* Assets.xcassets */,
+				8C2DD9AA1F4C340600868A25 /* LaunchScreen.storyboard */,
+				8C2DD9AD1F4C340600868A25 /* Info.plist */,
+				8C2DD9C11F4C3F2B00868A25 /* MainViewController.swift */,
+				8C2DD9C31F4C3F8300868A25 /* YixinTableViewController.swift */,
+				8C2DD9C51F4C3F8F00868A25 /* NewsTableViewController.swift */,
+				8C2DD9C71F4C3F9B00868A25 /* ProductsTableViewController.swift */,
+				8C2DD9C91F4E699100868A25 /* YixinTableViewCell.swift */,
+				8C2DD9CD1F4E6AF700868A25 /* Model */,
+				8C2DD9D01F4E798100868A25 /* BrowserViewController.swift */,
+				8C2DD9D21F4E84B400868A25 /* NewsTableViewCell.swift */,
+				8C2DD9D41F4E8D1B00868A25 /* ProductsTableViewCell.swift */,
+				8C2DD9D81F4EABF500868A25 /* Swift_Bridging_Header.h */,
+				8C2DD9D91F4EACB800868A25 /* MapViewController.swift */,
+			);
+			path = YixinIOS;
+			sourceTree = "<group>";
+		};
+		8C2DD9B51F4C340600868A25 /* YixinIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2DD9B61F4C340600868A25 /* YixinIOSTests.swift */,
+				8C2DD9B81F4C340600868A25 /* Info.plist */,
+			);
+			path = YixinIOSTests;
+			sourceTree = "<group>";
+		};
+		8C2DD9CD1F4E6AF700868A25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C2DD9CB1F4E6A4000868A25 /* ListFeed.swift */,
+				8C2DD9CE1F4E6B8B00868A25 /* ListFeedLine.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8C2DDA041F4EE30F00868A25 /* AppKefuControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C2DDA051F4EE30F00868A25 /* KFNavigationController.swift */,
+				8C2DDA061F4EE30F00868A25 /* KFRightButtonItemCallBackTableViewController.swift */,
+				8C2DDA071F4EE30F00868A25 /* KFSettingsViewController.swift */,
+				8C2DDA081F4EE30F00868A25 /* KFTagsChangeTableViewController.swift */,
+				8C2DDA091F4EE30F00868A25 /* KFTagsTableViewController.swift */,
+			);
+			path = AppKefuControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C2DD99D1F4C340600868A25 /* YixinIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2DD9BB1F4C340600868A25 /* Build configuration list for PBXNativeTarget "YixinIOS" */;
+			buildPhases = (
+				88173428D416B53D9673F9CC /* [CP] Check Pods Manifest.lock */,
+				8C2DD99A1F4C340600868A25 /* Sources */,
+				8C2DD99B1F4C340600868A25 /* Frameworks */,
+				8C2DD99C1F4C340600868A25 /* Resources */,
+				6A24AACAA1467F0BDD95F44D /* [CP] Embed Pods Frameworks */,
+				CCA2214623DCD17564157588 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YixinIOS;
+			productName = YixinIOS;
+			productReference = 8C2DD99E1F4C340600868A25 /* YixinIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C2DD9B11F4C340600868A25 /* YixinIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2DD9BE1F4C340600868A25 /* Build configuration list for PBXNativeTarget "YixinIOSTests" */;
+			buildPhases = (
+				8C2DD9AE1F4C340600868A25 /* Sources */,
+				8C2DD9AF1F4C340600868A25 /* Frameworks */,
+				8C2DD9B01F4C340600868A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C2DD9B41F4C340600868A25 /* PBXTargetDependency */,
+			);
+			name = YixinIOSTests;
+			productName = YixinIOSTests;
+			productReference = 8C2DD9B21F4C340600868A25 /* YixinIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C2DD9961F4C340600868A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "zeng tim";
+				TargetAttributes = {
+					8C2DD99D1F4C340600868A25 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W5ZUHEYQT3;
+						ProvisioningStyle = Automatic;
+					};
+					8C2DD9B11F4C340600868A25 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 74ZA4AJ8XE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C2DD99D1F4C340600868A25;
+					};
+				};
+			};
+			buildConfigurationList = 8C2DD9991F4C340600868A25 /* Build configuration list for PBXProject "YixinIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 8C2DD9951F4C340600868A25;
+			productRefGroup = 8C2DD99F1F4C340600868A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C2DD99D1F4C340600868A25 /* YixinIOS */,
+				8C2DD9B11F4C340600868A25 /* YixinIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C2DD99C1F4C340600868A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2DD9AC1F4C340600868A25 /* LaunchScreen.storyboard in Resources */,
+				8C2DD9FE1F4EDDC400868A25 /* Localizable.strings in Resources */,
+				8C2DD9A91F4C340600868A25 /* Assets.xcassets in Resources */,
+				8C2DD9A71F4C340600868A25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2DD9B01F4C340600868A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A24AACAA1467F0BDD95F44D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YixinIOS/Pods-YixinIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88173428D416B53D9673F9CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA2214623DCD17564157588 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YixinIOS/Pods-YixinIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C2DD99A1F4C340600868A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2DD9C21F4C3F2B00868A25 /* MainViewController.swift in Sources */,
+				8C2DD9D31F4E84B400868A25 /* NewsTableViewCell.swift in Sources */,
+				8C2DDA0B1F4EE30F00868A25 /* KFRightButtonItemCallBackTableViewController.swift in Sources */,
+				8C2DD9CF1F4E6B8B00868A25 /* ListFeedLine.swift in Sources */,
+				8C2DD9CC1F4E6A4000868A25 /* ListFeed.swift in Sources */,
+				8C2DDA0E1F4EE30F00868A25 /* KFTagsTableViewController.swift in Sources */,
+				8C2DD9C81F4C3F9B00868A25 /* ProductsTableViewController.swift in Sources */,
+				8C2DD9C41F4C3F8300868A25 /* YixinTableViewController.swift in Sources */,
+				8C2DD9DA1F4EACB800868A25 /* MapViewController.swift in Sources */,
+				8C2DD9CA1F4E699100868A25 /* YixinTableViewCell.swift in Sources */,
+				8C2DDA0D1F4EE30F00868A25 /* KFTagsChangeTableViewController.swift in Sources */,
+				8C2DD9A41F4C340600868A25 /* ViewController.swift in Sources */,
+				8C2DDA0C1F4EE30F00868A25 /* KFSettingsViewController.swift in Sources */,
+				8C2DD9D11F4E798100868A25 /* BrowserViewController.swift in Sources */,
+				8C2DD9D51F4E8D1B00868A25 /* ProductsTableViewCell.swift in Sources */,
+				8C2DD9C61F4C3F8F00868A25 /* NewsTableViewController.swift in Sources */,
+				8C2DDA0A1F4EE30F00868A25 /* KFNavigationController.swift in Sources */,
+				8C2DD9A21F4C340600868A25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2DD9AE1F4C340600868A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2DD9B71F4C340600868A25 /* YixinIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C2DD9B41F4C340600868A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C2DD99D1F4C340600868A25 /* YixinIOS */;
+			targetProxy = 8C2DD9B31F4C340600868A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C2DD9A51F4C340600868A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2DD9A61F4C340600868A25 /* Base */,
+				8C2DDA171F4EED9000868A25 /* zh-Hans */,
+				8C2DDA181F4EED9300868A25 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C2DD9AA1F4C340600868A25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2DD9AB1F4C340600868A25 /* Base */,
+				8C2DDA191F4EED9900868A25 /* zh-Hans */,
+				8C2DDA1A1F4EED9B00868A25 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8C2DD9F91F4EDDC400868A25 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2DD9FA1F4EDDC400868A25 /* en */,
+				8C2DDA1B1F4FBBAD00868A25 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C2DD9B91F4C340600868A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C2DD9BA1F4C340600868A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C2DD9BC1F4C340600868A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB34B44A3881E2960F1FF558 /* Pods-YixinIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W5ZUHEYQT3;
+				INFOPLIST_FILE = YixinIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YixinIOS/AppKeFuLib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AMapFoundationKit\"",
+					"-framework",
+					"\"AMapLocationKit\"",
+					"-framework",
+					"\"AMapSearchKit\"",
+					"-framework",
+					"\"AppKeFuFramework\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MAMapKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tim.yixin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = YixinIOS/Swift_Bridging_Header.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8C2DD9BD1F4C340600868A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E5B18928D103EC2339A320 /* Pods-YixinIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W5ZUHEYQT3;
+				INFOPLIST_FILE = YixinIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YixinIOS/AppKeFuLib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AMapFoundationKit\"",
+					"-framework",
+					"\"AMapLocationKit\"",
+					"-framework",
+					"\"AMapSearchKit\"",
+					"-framework",
+					"\"AppKeFuFramework\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MAMapKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tim.yixin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = YixinIOS/Swift_Bridging_Header.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8C2DD9BF1F4C340600868A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 74ZA4AJ8XE;
+				INFOPLIST_FILE = YixinIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tim.com.YixinIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YixinIOS.app/YixinIOS";
+			};
+			name = Debug;
+		};
+		8C2DD9C01F4C340600868A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 74ZA4AJ8XE;
+				INFOPLIST_FILE = YixinIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tim.com.YixinIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YixinIOS.app/YixinIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C2DD9991F4C340600868A25 /* Build configuration list for PBXProject "YixinIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2DD9B91F4C340600868A25 /* Debug */,
+				8C2DD9BA1F4C340600868A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2DD9BB1F4C340600868A25 /* Build configuration list for PBXNativeTarget "YixinIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2DD9BC1F4C340600868A25 /* Debug */,
+				8C2DD9BD1F4C340600868A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2DD9BE1F4C340600868A25 /* Build configuration list for PBXNativeTarget "YixinIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2DD9BF1F4C340600868A25 /* Debug */,
+				8C2DD9C01F4C340600868A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C2DD9961F4C340600868A25 /* Project object */;
+}
